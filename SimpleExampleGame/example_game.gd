@@ -5,7 +5,9 @@
 class_name ExampleMicrogame extends MicroGame
 
 
+
 func _physics_process(_delta: float) -> void:
+	
 	if Input.is_action_just_pressed("e"):
 		## vvv This is the line you need to run to let the player win your MicroGame!
 		GameManager.win()
